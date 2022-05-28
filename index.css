@@ -1,0 +1,167 @@
+body {
+    background: url("hockey-wallpaper.jpg") no-repeat center center fixed;
+    background-size: cover; 
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    display: flex; /*this starts off FLEX */
+    align-items: center;
+    justify-content:space-between;
+    background-color: #6cbfec;
+    padding: 0.02em 0.02em ;
+    box-shadow: 0 -4px 10px 15px #034d75;
+  
+}
+
+header h2 {
+    color: #820909;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(13, 72, 22);
+    font-weight: 700;
+}
+
+.quote {
+    text-align:center;
+    font-family:'Trebuchet MS';  
+}
+
+figure {
+    
+    padding: 10px 10px;
+    display: block;
+    width:fit-content;
+    margin-left: 36%;
+
+    background-color:hsl(219, 74%, 85%);
+    margin-bottom: -1.5%;
+    margin-top: 4%;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container > div {
+    margin: 80px;
+    padding: 10px;
+    margin-bottom: -1.5%;
+    margin-top:6%;
+}
+
+.flex-container2 {
+    display: flex;
+}
+
+.flex-container2 > div {
+    margin: 60px;
+    padding: 10px;
+    margin-bottom: -0.5%;
+    margin-top: 6%;
+}
+
+.flex-container3 {
+    display: flex;   
+}
+
+.flex-container3 > div {
+    margin: 9%;
+    padding: 10px;
+    margin-bottom: -1.5%;
+    margin-top:4%;
+}
+
+button {
+/*font-size: medium;*/
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.about-text {
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:fit-content;
+    margin-left: 13.5%;
+
+    background-color:hwb(7 58% 11%);
+    margin-bottom: 2%;
+    margin-top: 2.5%;
+}
+
+li {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+li:hover {
+    background-color:#ed7575; 
+}
+
+.tableintro {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 2px 2px;
+    background-color:hsl(219, 74%, 85%);
+    text-align: center;
+    margin-bottom: 0.05%;
+    margin-top: 5%;
+    font-family: verdana;
+    font-size:larger;
+    font-weight: bold;
+    color:hwb(0 6% 6%);
+}
+
+.playoff-schedule {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0%;
+    width: 50%   
+}
+
+th {
+    color:hwb(0 12% 5%);
+    font-size: large;
+    font-weight: bold;
+    background-color: #6cbfec;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+   
+    font-family: verdana;
+}
+
+tr {
+background-color: antiquewhite;
+
+}
+
+tr:nth-child(even) {
+    background-color:#ea5858;
+}
+
+tr:hover {
+    background-color:hsl(271, 23%, 52%); 
+}
+
