@@ -1,3 +1,5 @@
+/*Style page for contactMe.html file*/
+
 body {
     background: url("hockey-wallpaper.jpg") no-repeat center center fixed;
     background-size: cover; 
@@ -48,12 +50,6 @@ nav ul li a {
 h3 {
     color: #820909;
     font-size: larger;
-}
-
-.playoff-schedule {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 th {
