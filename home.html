@@ -1,3 +1,9 @@
+<!--Week 8 Coding Assignment:-->
+<!--Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling); every element must be styled;
+Create style rules using class, id, and element selectors.-->
+
+<!--Home page-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML website</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
@@ -14,9 +20,9 @@
     <img height=60px src="download.jfif"/> 
     <nav>        
         <ul>
-            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="home.html"><b>Home</b></a></li>
             <li><a href="about.html"><b>About</b></a></li>
-            <li><a href="contactMe.html"><b>Contact</b></a></li>
+            <li><a href="contactMe.html"><b>Contact Me</b></a></li>
         </ul>
     </nav>
   </header> 
@@ -59,16 +65,16 @@
     <div class="flex-container2">
         <div>  
         <button>
-        <p><b>NHL teams in round 2 of Stanley Cup Playoffs</b></p>
+        <p><b>NHL teams in the Central Division of the Western Conference</b></p>
         <ol>
-            <li>Colorado Avalanche</li>
+            <li>Dallas Stars</li>
+            <li>Winnipeg Jets</li>
+            <li>Minnesota Wild</li>
+            <li>Colorado Avalanche (GO Avs!)</li>
+            <li>Nashville Predators</li>
             <li>St. Louis Blues</li>
-            <li>Florida Panthers</li>
-            <li>Tampa Bay Lightning</li>
-            <li>Carolina Hurricanes</li>
-            <li>New York Rangers</li>
-            <li>Edmunton Oilers</li>
-            li>Calgary Flames</li>
+            <li>Arizona Coyotes</li>
+            <li>Chicago Blackhawks</li>
         </ol>
         </button>
         </div>
@@ -80,9 +86,9 @@
             <li align="left">Birthday: September 1, 1995</li>
             <li align="left">Birthplace: Oh, Canada :)</li>
             <li align="left">Home town: Halifax</li>
-            <li align="left">Age: 26</li>
+            <li align="left">Age: 27</li>
             <li align="left">Birth Sign: Virgo</li>
-            <li align="left">Notable Award: Calder Trophy 2014</li>
+            <li align="left">Notable Award: Calder Trophy 2014, Lady Bing Trophy 2017</li>
             <li align="left">Age at first NHL game: 18</li>
         </ul>
         </button>
@@ -97,18 +103,19 @@
             <li align="left">Denver Women's Hockey League (DWHL)formed in November 2000</li>
             <li align="left">First official league play for the DWHL in June 2001</li>
             <li align="left">Today: DWHL and WACH leagues continue to grow and support all women who want to play!</li>
-            <li align="left">USA Hockey stats show over 19,000 adult women playing hockey nationwide</li>
-            <li align="left">USA Hockey stats show over 600 adult women playing in Colorado, making us 4th in the nation!</li>
+            <li align="left">USA Hockey stats show ~18,000 adult women playing hockey nationwide</li>
+            <li align="left">Of those registered players, over 1,170 adult women (20 & over) are in Colorado, making us one of<br>
+                the top states for female hockey players!</li>
         </ul>
         </button>
         </div>
 </div>
 
     <div class="tableintro">
-    <p>This weekend's NHL playoffs game schedule:</p>
+    <p>Weekend schedule for NHL treams in the Central Division (Western Conference)</p>
     </div>
 
-    <table class="playoff-schedule" >
+    <table class="weekend-schedule" >
         <tr>
             <th>Date</th>
             <th>Time</th>
@@ -117,36 +124,49 @@
             <th>Where to Watch</th>
         </tr>
         <tr>
-            <td>May 21</td>
-            <td>8:00 PM ET</td>
-            <td>St. Louis Blues</td>
-            <td>Colorado Avalanche</td>
-            <td>TNT, CBC</td>
-        </tr>
-        <tr>
-            <td>May 22</td>
-            <td>1:30 PM ET</td>
-            <td>Florida Panthers</td>
+            <td>February 11</td>
+            <td>1:00 PM ET</td>
+            <td>Dallas Stars</td>
             <td>Tampa Bay Lightning</td>
-            <td>TNT, TVAS, SN</td>
+            <td>ESPN+, ABC</td>
         </tr>
         <tr>
-            <td>May 22</td>
-            <td>3:30 PM ET</td>
-            <td>New York Rangers</td>
-            <td>Carolina Hurricanes</td>
-            <td>ESPN, TVAS</td>
+            <td>February 11</td>
+            <td>10:00 PM ET</td>
+            <td>Winnipeg Jets</td>
+            <td>Chicago Blackhawks</td>
+            <td>CBC, SN, NBCSCH+</td>
         </tr>
         <tr>
-            <td>May 22</td>
+            <td>February 11</td>
+            <td>8:00 PM ET</td>
+            <td>Minnesota Wild</td>
+            <td>New Jersey Devils</td>
+            <td>BSN, MSGSN</td>
+        </tr>
+        <tr>
+            <td>February 11</td>
+            <td>6:00 ET PM</td>
+            <td>Florida Panthers</td>
+            <td>Colorado Avalanche</td>
+            <td>TVAS, ALT</td>
+        </tr>
+        <tr>
+            <td>February 11</td>
+            <td>12:30 ET PM</td>
+            <td>Philadelphia Flyers</td>
+            <td>Nashville Predators</td>
+            <td>TVAS, ALT</td>
+        </tr>
+        <tr>
+            <td>February 11</td>
             <td>8:00 ET PM</td>
-            <td>Calgary Flames</td>
-            <td>Edmunton Oilers</td>
-            <td>ESPN2, CBC</td>
+            <td>St. Louis Blues</td>
+            <td>Arizona Coyotes</td>
+            <td>BSMW, BSAZ</td>
         </tr>
     </table> 
 
 </body>
-
 </html>
 

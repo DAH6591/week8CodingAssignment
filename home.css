@@ -68,7 +68,7 @@ figure {
 }
 
 .flex-container2 > div {
-    margin: 60px;
+    margin: 8px;
     padding: 10px;
     margin-bottom: -0.5%;
     margin-top: 6%;
@@ -117,20 +117,20 @@ li:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    width:fit-content;
     padding: 2px 2px;
     background-color:hsl(219, 74%, 85%);
     text-align: center;
     margin-bottom: 0.05%;
     margin-top: 5%;
     font-family: verdana;
-    font-size:larger;
+    font-size:large;
     font-weight: bold;
     color:hwb(0 6% 6%);
 }
 
-.playoff-schedule {
-    display: block;
+.weekend-schedule {
+    display: box;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0%;
@@ -146,10 +146,10 @@ th {
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
     border: 1px solid black;
    
-    font-family: verdana;
+    font-family: arial;
 }
 
 tr {
